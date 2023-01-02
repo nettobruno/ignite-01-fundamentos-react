@@ -1,4 +1,21 @@
 .header {
-  background: #333333;
-  height: 80px;
+  background-color: var(--gray-800);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+
+  padding: 1.25rem 0;
+}
+
+.header img {
+  height: 2rem;
+}
+
+.header strong {
+  color: var(--gray-100);
+  font-size: 1.625rem;
+  font-weight: 700;
 }
