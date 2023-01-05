@@ -22,18 +22,6 @@
   margin-top: calc(0px - 1.5rem - 6px);
 }
 
-.avatar {
-  /* 
-    Esse cálculo é feito para que o tamanho da imagem de avatar fique boa.
-    A ideia é ela ter 3rem, mais a soma dos valores de border e outline.
-  */
-  width: calc(3rem + 12px);
-  height: calc(3rem + 12px);
-  border-radius: 8px;
-  border: 4px solid var(--gray-800);
-  outline: 2px solid var(--green-500);
-}
-
 .profile strong {
   margin-top: 1rem;
   color: var(--gray-100);
